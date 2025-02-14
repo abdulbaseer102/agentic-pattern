@@ -3,7 +3,7 @@ from litellm import completion
 
 class ChainOfThought(Flow):
  
-    API_KEY = "AIzaSyDoT0HSp2FtrDrsuF16taPk6rYbShwnbGQ"
+    API_KEY = "GEMINI_API_KEY"
     model = "gemini/gemini-1.5-flash"
 
  #chain of thought flow pattern with gemini model 1.5 flash

@@ -4,7 +4,7 @@ from crewai.flow.flow import Flow, start, listen, router
 from litellm import completion
 
 class Learning(Flow):
-    API_KEY = "AIzaSyDoT0HSp2FtrDrsuF16taPk6rYbShwnbGQ"
+    API_KEY = "GEMINI_API_KEY"
     model = "gemini/gemini-1.5-pro"
 
     @start()
