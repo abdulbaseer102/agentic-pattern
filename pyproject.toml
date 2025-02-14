@@ -1,0 +1,33 @@
+[project]
+name = "agentic-patterns"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "abdulbaseer102", email = "147842675+abdulbaseer102@users.noreply.github.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "crewai>=0.102.0",
+    "crewai-tools>=0.36.0",
+    "jason>=0.1.7",
+    "pydantic>=2.10.6",
+]
+
+[project.scripts]
+    agent1 = "agentic_patterns.chain_of_thougt:main"
+    agent2 = "agentic_patterns.chain_of_thougt:mainplot"
+    agent3 = "agentic_patterns.learning:main"
+    agent4 = "agentic_patterns.learning:mainplot"
+    agent5 = "agentic_patterns.multi_agent:main"
+    agent6 = "agentic_patterns.multi_agent:mainplot"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.0.0"
+isort = "^5.12.0"
+mypy = "^1.5.0"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
