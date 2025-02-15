@@ -7,6 +7,7 @@ wheels/
 *.egg-info
 .env
 crewai_flow.html
+response.txt
 
 # Virtual environments
 .venv

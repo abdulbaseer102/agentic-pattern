@@ -15,12 +15,12 @@ dependencies = [
 ]
 
 [project.scripts]
-    agent1 = "agentic_patterns.chain_of_thougt:main"
-    agent2 = "agentic_patterns.chain_of_thougt:mainplot"
-    agent3 = "agentic_patterns.learning:main"
-    agent4 = "agentic_patterns.learning:mainplot"
-    agent5 = "agentic_patterns.multi_agent:main"
-    agent6 = "agentic_patterns.multi_agent:mainplot"
+agentic-patterns = "agentic_patterns:main"
+agent1 = "agentic_patterns.chain_of_thougt:main"
+agent2 = "agentic_patterns.chain_of_thougt:mainplot"
+agent3 = "agentic_patterns.learning:main"
+agent4 = "agentic_patterns.learning:mainplot"
+ 
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
