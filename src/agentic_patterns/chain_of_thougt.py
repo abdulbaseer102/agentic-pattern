@@ -2,8 +2,8 @@ from crewai.flow.flow import Flow, start, listen, router
 from litellm import completion
 
 class ChainOfThought(Flow):
-    API_KEY = "AIzaSyDoT0HSp2FtrDrsuF16taPk6rYbShwnbGQ"
-    model = "gemini/gemini-1.5-flash"
+    API_KEY = "GEMINI_API_KEY"
+    model = "GEMINI_MODEL"
 
     @start()
     def extract_the_issue(self):
